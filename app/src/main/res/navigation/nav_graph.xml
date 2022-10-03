@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rationMainFragment">
+
+    <fragment
+        android:id="@+id/rationMainFragment"
+        android:name="com.bcalegaro.firebasetest3.ui.ration.RationMainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main_ration" >
+        <action
+            android:id="@+id/action_rationMainFragment_to_addRationFragment"
+            app:destination="@id/addRationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRationFragment"
+        android:name="com.bcalegaro.firebasetest3.ui.ration.AddRationFragment"
+        android:label="fragment_add_ration"
+        tools:layout="@layout/fragment_add_ration" />
+</navigation>
