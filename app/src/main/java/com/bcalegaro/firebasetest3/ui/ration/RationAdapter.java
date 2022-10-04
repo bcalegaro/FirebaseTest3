@@ -1,4 +1,4 @@
-package com.bcalegaro.firebasetest3.data;
+package com.bcalegaro.firebasetest3.ui.ration;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bcalegaro.firebasetest3.R;
+import com.bcalegaro.firebasetest3.data.Ration;
 
 import java.util.List;
 
@@ -30,9 +31,7 @@ public class RationAdapter  extends RecyclerView.Adapter<RationAdapter.RationVie
     private List<Ration> mRations; //cached copy
 
     //construtor
-    public RationAdapter(){
-
-    }
+    public RationAdapter(){}
 
     @NonNull
     @Override

@@ -18,7 +18,6 @@ import android.view.ViewGroup;
 
 import com.bcalegaro.firebasetest3.R;
 import com.bcalegaro.firebasetest3.data.Ration;
-import com.bcalegaro.firebasetest3.data.RationAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
